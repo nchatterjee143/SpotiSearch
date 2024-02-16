@@ -4,7 +4,6 @@ from requests import post, get
 import os
 import base64
 import json
-import sys
 
 load_dotenv()
 id = os.getenv('CLIENT_ID')
