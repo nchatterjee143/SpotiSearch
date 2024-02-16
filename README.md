@@ -2,9 +2,9 @@
 
 Website that allows a user to see the top 10 songs from a query search of an artist's name. Links to songs will be hyperlinked. Will redirect to Spotify.
 
-# Local Installation Guide
+## Local Installation Guide
 
-## Requirements
+### Requirements
 - Python (preferably the latest version)
 
 1. `git clone` this repository.
@@ -14,7 +14,7 @@ Website that allows a user to see the top 10 songs from a query search of an art
 5. The terminal should have generated an IP address at which your localhost is live. Enter that IP address in your browser search bar.
 6. `Ctrl+C` in Terminal when finished.
 
-# To DO
+## To Do
 1. Add basic/advanced CSS.
 2. Show images for album covers of songs.
 3. Make images hyperlinks.
