@@ -6,13 +6,18 @@ Website that allows a user to see the top 10 songs from a query search of an art
 
 ### Requirements
 - Python (preferably the latest version)
+- Spotify Developer Account
+- Application through Spotify Developer Portal
 
 1. `git clone` this repository.
 2. `cd SpotiSearch`
 3. `pip install -r requirements.txt`
-4. `python3 main.py`
-5. The terminal should have generated an IP address at which your localhost is live. Enter that IP address in your browser search bar.
-6. `Ctrl+C` in Terminal when finished.
+4. `touch .env`
+5. `vim .env`
+6. Enter `CLIENT_ID` and `CLIENT_SECRET` tokens into the `.env` file.
+7. `python3 main.py`
+8. The terminal should have generated an IP address at which your localhost is live. Enter that IP address in your browser search bar.
+9. `Ctrl+C` in Terminal when finished.
 
 ## To Do
 1. Add basic/advanced CSS.
