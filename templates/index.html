@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Artist Search</title>
+</head>
+<body>
+    <h1>Spotify Artist Search</h1>
+    <form method="POST">
+        <label for="artist">Search for an artist:</label><br>
+        <input type="text" id="artist" name="artist"><br>
+        <label for="country">Select a country:</label><br>
+        <select id="country" name="country">
+            {% for code, country in country_list.items() %}
+                <option value="{{ code }}">{{ country }}</option>
+            {% endfor %}
+        </select><br>
+        <button type="submit">Search</button>
+    </form>
+    {% if error_message %}
+        <p>{{ error_message }}</p>
+    {% endif %}
+    {% if songs %}
+        <h2>Top 10 Songs by {{ artist_name }} in {{ country }}</h2>
+        <ol>
+            {% for song in songs %}
+                <li><a href="{{ song.external_urls.spotify }}" target="_blank">{{ song.name }}</a> (Popularity: {{ song.popularity }})</li>
+            {% endfor %}
+        </ol>
+    {% endif %}
+</body>
+</html>
