@@ -24,3 +24,4 @@ Website that allows a user to see the top 10 songs from a query search of an art
 2. Show images for album covers of songs.
 3. Make images hyperlinks.
 4. Deploy somewhere on internet.
+5. Add a showing of how many streams the song has in place of popularity indicator.
