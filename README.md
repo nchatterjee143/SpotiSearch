@@ -14,7 +14,7 @@ Website that allows a user to see the top 10 songs from a query search of an art
 3. `pip install -r requirements.txt`
 4. `touch .env`
 5. `vim .env`
-6. Enter `CLIENT_ID` and `CLIENT_SECRET` tokens into the `.env` file.
+6. Enter `CLIENT_ID` and `CLIENT_SECRET` tokens into the `.env` file. These should be from the application you created through the SDP.
 7. `python3 main.py`
 8. The terminal should have generated an IP address at which your localhost is live. Enter that IP address in your browser search bar.
 9. `Ctrl+C` in Terminal when finished.
