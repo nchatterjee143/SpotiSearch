@@ -26,6 +26,6 @@ Website that allows a user to see the top 10 songs from a query search of an art
 4. Deploy somewhere on internet.
 5. Add a showing of how many streams the song has in place of popularity indicator.
 6. Dropdown list of artists after search.
-7. Select from a list of countries and then show the top 10 songs in that country
-    - Across languages
-    - For a specific language
+7. Select from a list of countries and then show the top 10 songs in that country.
+    - Across languages.
+    - For a specific language.
